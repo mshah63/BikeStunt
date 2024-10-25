@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1008243163405",
+    "project_id": "bike-stunts-bee17",
+    "storage_bucket": "bike-stunts-bee17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008243163405:android:32b462d0be74b842163044",
+        "android_client_info": {
+          "package_name": "com.SkFarox.MotorBikeStunts3D"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ3thvajHaiAtCgHbFLuZvOTl3oDZt0ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
