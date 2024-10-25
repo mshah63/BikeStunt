@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1944578125551470}
+  m_IsPrefabAsset: 1
+--- !u!1 &1944578125551470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4416961378666470}
+  - component: {fileID: 114964177110674682}
+  m_Layer: 0
+  m_Name: GN_PlayerSelection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4416961378666470
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944578125551470}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114964177110674682
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944578125551470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ff3198d8e9fb540a33245a405a4840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PreviousScene: 1
+  NextScene: 2
+  Selection_UI:
+    LoadingScreen: {fileID: 0}
+    FillBar: {fileID: 0}
+    Speed_Bar: {fileID: 0}
+    Handling_Bar: {fileID: 0}
+    Acceleration_Bar: {fileID: 0}
+    InfoText: {fileID: 0}
+    PlayBtn: {fileID: 0}
+    NextBtn: {fileID: 0}
+    PrevBtn: {fileID: 0}
+  Players:
+  - Name: Player 1
+    Info: 
+    PlayerObject: {fileID: 0}
+    Speed: 50
+    Handling: 60
+    Acceleration: 70
+    Locked: 0
+    LevelRequired: 0
+  - Name: Player 2
+    Info: 
+    PlayerObject: {fileID: 0}
+    Speed: 80
+    Handling: 50
+    Acceleration: 90
+    Locked: 1
+    LevelRequired: 0
+  SequenceID: 1
+  LoadingSequence: 1
+  LoadingSequenceID: 3
